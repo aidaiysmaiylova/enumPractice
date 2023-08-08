@@ -3,9 +3,9 @@ import java.util.Arrays;
 public class School {
     private int id;
     private String name;
-    private lesson[]lessons;
+    private lesson lessons;
 
-    public School(int id, String name, lesson[] lessons) {
+    public School(int id, String name, lesson lessons) {
         this.id = id;
         this.name = name;
         this.lessons = lessons;
@@ -16,6 +16,6 @@ public class School {
         return "School{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", lessons=" + Arrays.toString(lessons);
+                ", lessons=" + lessons;
     }
 }

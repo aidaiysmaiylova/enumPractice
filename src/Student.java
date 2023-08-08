@@ -5,9 +5,9 @@ public class Student {
     private String lasName;
     private int id;
     private int age;
-    Course[]courses;
+    Course courses;
 
-    public Student(String name, String lasName, int id, int age, Course[] courses) {
+    public Student(String name, String lasName, int id, int age, Course courses) {
         this.name = name;
         this.lasName = lasName;
         this.id = id;
@@ -22,6 +22,6 @@ public class Student {
                 ", lasName='" + lasName + '\'' +
                 ", id=" + id +
                 ", age=" + age +
-                ", courses=" + Arrays.toString(courses);
+                ", courses=" + courses;
     }
 }
