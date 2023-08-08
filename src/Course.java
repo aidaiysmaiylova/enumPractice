@@ -1,0 +1,6 @@
+public enum Course {
+    LAMGUAGECOURSE,
+    PROGRAMMINGCOURSE,
+    MATHCOURSE,
+    CHESSCOURSE
+}
